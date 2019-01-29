@@ -1,28 +1,23 @@
 // Just the start
-function deadlines(evt){
-  // For now: Just show the deadlines in a list format
-  document.getElementById("Deadlines").style.display = "block";
+
+function eventdirect(evt, task) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(task).style.display = "block";
   evt.currentTarget.className += " active";
-  // Future: Send a mail to me reminding my deadlines
 }
 
-function academics(evt){
-  // For now:
-  document.getElementById("Academics").style.display = "block";
-  evt.currentTarget.className += " active";
-  // Future:
-}
-
-function selfstudy(evt){
-  // For now: Academic and personal together. Can be confusing but will work on it soon
-  document.getElementById("selfStudy").style.display = "block";
-  evt.currentTarget.className += " active";
-  // Future:
-}
-
-function contactinfo(evt){
-  // For now:
-  document.getElementById("contactInfo").style.display = "block";
-  evt.currentTarget.className += " active";
-  // Future:
-}
