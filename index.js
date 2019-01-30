@@ -31,5 +31,5 @@ function w3_close() {
 
 function personalInfo(){
   document.getElementById("mainInfo").style.display = "block";
-  document.getElementsByClassName("tabcontent") = "none"
+  document.getElementsByClassName("tabcontent").style.display = "none"
 ;}
