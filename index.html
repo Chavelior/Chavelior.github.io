@@ -84,7 +84,7 @@
          /* The sidebar menu */
          .sidenav {
          height: 100%; /* Full-height: remove this if you want "auto" height */
-         width: 160px; /* Set the width of the sidebar */
+         width: 200px; /* Set the width of the sidebar */
          position: fixed; /* Fixed Sidebar (stay in place on scroll) */
          z-index: 1; /* Stay on top */
          top: 50; /* Stay at the top */
@@ -157,7 +157,16 @@
             <a href="#" onclick="dic()">Data Intensive computing</a>
             <a href="#" onclick="sdm2()">Statistical Data Mining 2</a>
          </div>
-         <p>This includes the ongoings of classes, any doubts or topics I nwish to revisit. Or self notes and study material.</p>
+         <div id="dic_tab" style="display:none">
+            <p>Data Intensive Computing</p>
+            <p>Weekly Review</p>
+            <button onclick="dic_oic()">Ongoing in class</button>
+            <button onclick="dic_ss()">Self study</button>
+            <button onclick="dic_ass()">Assignments</button>
+            <button onclick="dic_pro()">Projects</button>
+            <button onclick="dic_mid()">Mid Sem Exam</button>
+            <button onclick="dic_final()">Final Exam</button>
+         </div>
       </div>
       <div id="selfStudy" class="tabcontent box">
          <h3>Self study</h3>
