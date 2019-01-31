@@ -1,5 +1,4 @@
 // Just the start
-console.log("Enters here:")
 function eventdirect(evt, task) {
   // Declare all variables
   var i, tabcontent, tablinks;
