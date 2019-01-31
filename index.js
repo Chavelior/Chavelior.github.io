@@ -35,3 +35,13 @@ function personalInfo(){
     tabcontent[i].style.display = "none";
   }
 ;}
+
+function selfchal(){
+   document.getElementById("acad_deadlines").style.display = "none";
+   document.getElementById("selfChal").style.display = "block";
+}
+
+function acad_deadline(){
+   document.getElementById("acad_deadlines").style.display = "block";
+   document.getElementById("selfChal").style.display = "none";
+}
