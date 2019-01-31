@@ -45,3 +45,19 @@ function acad_deadline(){
    document.getElementById("acad_deadlines").style.display = "block";
    document.getElementById("selfChal").style.display = "none";
 }
+
+function mech_learn(){
+  document.getElementById("mec_tab").style.display = "block";
+  document.getElementById("dic_tab").style.display = "none";
+  document.getElementById("sdm_tab").style.display = "none";
+}
+function dic(){
+  document.getElementById("dic_tab").style.display = "block";
+  document.getElementById("mec_tab").style.display = "none";
+  document.getElementById("sdm_tab").style.display = "none";
+}
+function sdm2(){
+  document.getElementById("sdm_tab").style.display = "block";
+  document.getElementById("dic_tab").style.display = "none";
+  document.getElementById("mec_tab").style.display = "none";
+}
