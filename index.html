@@ -207,15 +207,43 @@
             <button onclick="sdm_final()">Final Exam</button>
          </div>
       </div>
+      
+      
+      
       <div id="selfStudy" class="tabcontent box">
-         <h3>Self study</h3>
+         
          <div class="sidenav">
+            <a href="#" onclick="home_ss()">Home</a>
             <a href="#" onclick="uni_topic()">Unique Topics</a>
             <a href="#" onclick="corbooks()">Course Books</a>
             <a href="#" onclick="art_pap()">Papers and articles</a>
          </div>
-         <p>This includes personal study material regarding both academic and entertainment.</p>
+         
+         <div id="homess">
+            <h3>Self study</h3>
+            <p>This includes personal study material regarding both academic and entertainment.</p>
+         </div>
+         
+         <div id="unitopic" style="display:none">
+            <h3>Unique Topics</h3>
+            <ul>
+               <li>Text analysis.(Checkout 'quanteda' package in R)</li>
+               <li>Scikit learn library in Python</li>
+            </ul>
+         </div>
+         
+         <div id="corbooksid" style="display:none">
+            <h3>Good books for academics and learning</h3>
+            <ul>
+               <li>Python for Machine Learning</li>
+               <li>MIT challenge book for Machine learning.</li>
+            </ul>
+         </div>
+         
       </div>
+      
+      
+      
       <div id="goals" class="tabcontent box">
          <h3>Defining characteristics of an organism is STRIVING.</h3>
          <p>This includes goals both active and inactive.</p>
