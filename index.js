@@ -71,3 +71,21 @@ function sdm2(){
   document.getElementById("mec_tab").style.display = "none";
   document.getElementById("acad_home").style.display = "none";
 }
+
+function home_ss(){
+  document.getElementById("homess").style.display = "block";
+  document.getElementById("unitopic").style.display = "none";
+  document.getElementById("corbooksid").style.display = "none";
+}
+
+function uni_topic(){
+  document.getElementById("homess").style.display = "none";
+  document.getElementById("unitopic").style.display = "block";
+  document.getElementById("corbooksid").style.display = "none";
+}
+
+function corbooks(){
+  document.getElementById("homess").style.display = "none";
+  document.getElementById("unitopic").style.display = "none";
+  document.getElementById("corbooksid").style.display = "black";
+}
