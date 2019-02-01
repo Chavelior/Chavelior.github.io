@@ -87,5 +87,5 @@ function uni_topic(){
 function corbooks(){
   document.getElementById("homess").style.display = "none";
   document.getElementById("unitopic").style.display = "none";
-  document.getElementById("corbooksid").style.display = "black";
+  document.getElementById("corbooksid").style.display = "block";
 }
