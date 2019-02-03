@@ -136,10 +136,10 @@
          <div id="acad_deadlines">
             <p style="color:white;">Academic Deadlines</p>
             <p>This includes deadlines of homework, assignments and exams</p>
-         <ul>
-            <li>Data Intensive computing: Checkout Amazon AWS </li>
-            <li>Tensor flow for Machine Learning</li>
-         </ul>
+            <ul>
+               <li>Data Intensive computing: Checkout Amazon AWS </li>
+               <li>Tensor flow for Machine Learning</li>
+            </ul>
          </div>
          <div id="selfChal" style="display:none">
             <ul style="color:white; text-align:left;">
@@ -156,6 +156,7 @@
             <a href="#" onclick="mech_learn()">Machine Learning</a>
             <a href="#" onclick="dic()">Data Intensive computing</a>
             <a href="#" onclick="sdm2()">Statistical Data Mining 2</a>
+            <a href="#" onclick="dmq()">Data models and query languages</a>
          </div>
          <div id="acad_home">
             <p>Academics</p>
@@ -171,12 +172,16 @@
             <button onclick="mec_mid()">Mid Sem Exam</button>
             <button onclick="mec_final()">Final Exam</button>
          </div>
-         
-         
-         
          <div id="dic_tab" style="display:none">
             <p>Data Intensive Computing</p>
             <p>Weekly Review</p>
+            <div id="dicss">
+               <ul>
+                  <p>Week1:</p>
+                  <li>Professor suggested book:Fourth Paradigm(Done with someguys lecture. Has to start chapter 1.)</li>
+                  <li>Amazon AWS credentials obtained</li>
+               </ul>
+            </div>
             <button onclick="dic_oic()">Ongoing in class</button>
             <button onclick="dic_ss()">Self study</button>
             <button onclick="dic_ass()">Assignments</button>
@@ -184,17 +189,6 @@
             <button onclick="dic_mid()">Mid Sem Exam</button>
             <button onclick="dic_final()">Final Exam</button>
          </div>
-         
-         <div id="dicss">
-            <ul>
-               <p>Week1:</p>
-               <li>Professor suggested book:Fourth Paradigm(Done with someguys lecture. Has to start chapter 1.)</li>
-               <li>Amazon AWS credentials obtained</li>
-            </ul>
-         </div>
-         
-         
-         
          <div id="sdm_tab" style="display:none">
             <p>Statistical Data Mining</p>
             <p>Weekly Review</p>
@@ -205,25 +199,44 @@
             <button onclick="sdm_pro()">Projects</button>
             <button onclick="sdm_mid()">Mid Sem Exam</button>
             <button onclick="sdm_final()">Final Exam</button>
+            <div id="sdm_ss" style="display:none;">
+               <h3>Week:2(Self study)</h3>
+               <ul>
+                  <li>Research papers Arules and bump hunting.</li>
+                  <li>Chapter 14(Association rules), CART chapter Introduction to statistical Learning.</li>
+               </ul>
+            </div>
          </div>
       </div>
-      
-      
-      
+      <div id="dmq_tab" style="display:none">
+            <h3>Data Models and query languages</h3>
+            <p>Weekly Review</p>
+            <button onclick="dmq_oic()">Ongoing in class</button>
+            <button onclick="dmq_ss()">Self study</button>
+            <button onclick="dmq_final()">Resources</button>
+            <button onclick="dmq_ass()">Assignments</button>
+            <button onclick="dmq_pro()">Projects</button>
+            <button onclick="dmq_mid()">Mid Sem Exam</button>
+            <button onclick="dmq_final()">Final Exam</button>
+            <div id="dmq_ss" style="display:none;">
+               <h3>Week:2</h3>
+               <ul>
+                  <li>Research papers Arules and bump hunting.</li>
+               </ul>
+            </div>
+         </div>
+      </div>
       <div id="selfStudy" class="tabcontent box">
-         
          <div class="sidenav">
             <a href="#" onclick="home_ss()">Home</a>
             <a href="#" onclick="uni_topic()">Unique Topics</a>
             <a href="#" onclick="corbooks()">Course Books</a>
             <a href="#" onclick="art_pap()">Papers and articles</a>
          </div>
-         
          <div id="homess">
             <h3>Self study</h3>
             <p>This includes personal study material regarding both academic and entertainment.</p>
          </div>
-         
          <div id="unitopic" style="display:none">
             <h3>Unique Topics</h3>
             <ul>
@@ -231,7 +244,6 @@
                <li>Scikit learn library in Python</li>
             </ul>
          </div>
-         
          <div id="corbooksid" style="display:none">
             <h3>Good books for academics and learning</h3>
             <ul>
@@ -239,11 +251,7 @@
                <li>MIT challenge book for Machine learning.</li>
             </ul>
          </div>
-         
       </div>
-      
-      
-      
       <div id="goals" class="tabcontent box">
          <h3>Defining characteristics of an organism is STRIVING.</h3>
          <p>This includes goals both active and inactive.</p>
