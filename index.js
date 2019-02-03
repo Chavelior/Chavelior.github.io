@@ -106,5 +106,5 @@ function dmq_ss(){
 }
 
 function sdm_ss(){
-  document.getElementById("sdm_ss").style.display = "block"
+  document.getElementById("sdm_ss").style.display = "block";
 }
