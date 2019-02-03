@@ -104,3 +104,7 @@ function corbooks(){
 function dmq_ss(){
   document.getElementById("dmq_ss").style.display = "block";
 }
+
+function sdm_ss(){
+  document.getElementById("sdm_ss").style.display = "block"
+}
