@@ -50,6 +50,7 @@ function acad_home(){
   document.getElementById("mec_tab").style.display = "none";
   document.getElementById("dic_tab").style.display = "none";
   document.getElementById("sdm_tab").style.display = "none";
+  document.getElementById("dmq_tab").style.display = "none";
   document.getElementById("acad_home").style.display = "block";
 }
 
@@ -58,18 +59,28 @@ function mech_learn(){
   document.getElementById("dic_tab").style.display = "none";
   document.getElementById("sdm_tab").style.display = "none";
   document.getElementById("acad_home").style.display = "none";
+  document.getElementById("dmq_tab").style.display = "none";
 }
 function dic(){
   document.getElementById("dic_tab").style.display = "block";
   document.getElementById("mec_tab").style.display = "none";
   document.getElementById("sdm_tab").style.display = "none";
   document.getElementById("acad_home").style.display = "none";
+  document.getElementById("dmq_tab").style.display = "none";
 }
 function sdm2(){
   document.getElementById("sdm_tab").style.display = "block";
   document.getElementById("dic_tab").style.display = "none";
   document.getElementById("mec_tab").style.display = "none";
   document.getElementById("acad_home").style.display = "none";
+  document.getElementById("dmq_tab").style.display = "none";
+}
+function dmq(){
+  document.getElementById("sdm_tab").style.display = "none";
+  document.getElementById("dic_tab").style.display = "none";
+  document.getElementById("mec_tab").style.display = "none";
+  document.getElementById("acad_home").style.display = "none";
+  document.getElementById("dmq_tab").style.display = "block";
 }
 
 function home_ss(){
@@ -88,4 +99,8 @@ function corbooks(){
   document.getElementById("homess").style.display = "none";
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "block";
+}
+
+function dmq_ss(){
+  document.getElementById("dmq_ss").style.display = "block";
 }
