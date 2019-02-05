@@ -172,3 +172,13 @@ function mec_res(){
   document.getElementById("mec_mid").style.display = "none";
   document.getElementById("mec_res").style.display = "block";
 }
+
+function ss_dm(){
+   document.getElementById("ss_dm").style.display = "block";
+   document.getElementById("ss_ml").style.display = "none";
+}
+
+function ss_ml(){
+   document.getElementById("ss_dm").style.display = "none";
+   document.getElementById("ss_ml").style.display = "block";
+}
