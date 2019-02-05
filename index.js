@@ -118,3 +118,57 @@ function mec_ass(){
   document.getElementById("mec_mid").style.display = "none";
   document.getElementById("mec_res").style.display = "none";
 }
+function mec_oic(){
+  document.getElementById("mec_ass").style.display = "none";
+  document.getElementById("mec_oic").style.display = "block";
+  document.getElementById("mec_ss").style.display = "none";
+  document.getElementById("mec_final").style.display = "none";
+  document.getElementById("mec_pro").style.display = "none";
+  document.getElementById("mec_mid").style.display = "none";
+  document.getElementById("mec_res").style.display = "none";
+}
+function mec_ss(){
+  document.getElementById("mec_ss").style.display = "block";
+  document.getElementById("mec_oic").style.display = "none";
+  document.getElementById("mec_ass").style.display = "none";
+  document.getElementById("mec_final").style.display = "none";
+  document.getElementById("mec_pro").style.display = "none";
+  document.getElementById("mec_mid").style.display = "none";
+  document.getElementById("mec_res").style.display = "none";
+}
+function mec_final(){
+  document.getElementById("mec_ass").style.display = "none";
+  document.getElementById("mec_oic").style.display = "none";
+  document.getElementById("mec_ss").style.display = "none";
+  document.getElementById("mec_final").style.display = "block";
+  document.getElementById("mec_pro").style.display = "none";
+  document.getElementById("mec_mid").style.display = "none";
+  document.getElementById("mec_res").style.display = "none";
+}
+function mec_pro(){
+  document.getElementById("mec_ass").style.display = "none";
+  document.getElementById("mec_oic").style.display = "none";
+  document.getElementById("mec_ss").style.display = "none";
+  document.getElementById("mec_final").style.display = "none";
+  document.getElementById("mec_pro").style.display = "block";
+  document.getElementById("mec_mid").style.display = "none";
+  document.getElementById("mec_res").style.display = "none";
+}
+function mec_mid(){
+  document.getElementById("mec_ass").style.display = "none";
+  document.getElementById("mec_oic").style.display = "none";
+  document.getElementById("mec_ss").style.display = "none";
+  document.getElementById("mec_final").style.display = "none";
+  document.getElementById("mec_pro").style.display = "none";
+  document.getElementById("mec_mid").style.display = "block";
+  document.getElementById("mec_res").style.display = "none";
+}
+function mec_res(){
+  document.getElementById("mec_ass").style.display = "none";
+  document.getElementById("mec_oic").style.display = "none";
+  document.getElementById("mec_ss").style.display = "none";
+  document.getElementById("mec_final").style.display = "none";
+  document.getElementById("mec_pro").style.display = "none";
+  document.getElementById("mec_mid").style.display = "none";
+  document.getElementById("mec_res").style.display = "block";
+}
