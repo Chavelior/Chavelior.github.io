@@ -108,3 +108,13 @@ function dmq_ss(){
 function sdm_ss(){
   document.getElementById("sdm_ss").style.display = "block";
 }
+
+function mec_ass(){
+  document.getElementById("mec_ass").style.display = "block";
+  document.getElementById("mec_oic").style.display = "none";
+  document.getElementById("mec_ss").style.display = "none";
+  document.getElementById("mec_final").style.display = "none";
+  document.getElementById("mec_pro").style.display = "none";
+  document.getElementById("mec_mid").style.display = "none";
+  document.getElementById("mec_res").style.display = "none";
+}
