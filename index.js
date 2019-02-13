@@ -189,3 +189,8 @@ function ss_ml(){
    document.getElementById("ss_dm").style.display = "none";
    document.getElementById("ss_ml").style.display = "block";
 }
+
+function dmq_oic(){
+   document.getElementById("dmq_oic").style.display = "block";
+   document.getElementById("dmq_ss").style.display = "none";
+}
