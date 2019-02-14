@@ -114,7 +114,14 @@ function dmq_ss(){
 
 function sdm_ss(){
   document.getElementById("sdm_ss").style.display = "block";
+  document.getElementById("sdm_ass").style.display = "none";
 }
+
+function sdm_ass(){
+  document.getElementById("sdm_ass").style.display = "block";
+  document.getElementById("sdm_ss").style.display = "none";
+}
+
 
 function mec_ass(){
   document.getElementById("mec_ass").style.display = "block";
