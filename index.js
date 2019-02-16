@@ -34,7 +34,21 @@ function personalInfo(){
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
-;}
+}
+
+function acad_deadline(){
+   document.getElementById('acad_deadlines').style.display = 'block';
+   document.getElementById('selfchal').style.display = 'none';
+}
+
+function selfchal(){
+   document.getElementById('acad_deadlines').style.display = 'none';
+   document.getElementById('selfchal').style.display = 'block';
+}
+
+function goal_phd(){
+   document.getElementById('goal_phd').style.display = 'block';
+}
 
 function selfchal(){
    document.getElementById("acad_deadlines").style.display = "none";
@@ -200,4 +214,18 @@ function ss_ml(){
 function dmq_oic(){
    document.getElementById("dmq_oic").style.display = "block";
    document.getElementById("dmq_ss").style.display = "none";
+}
+
+function goal_phd(){
+   document.getElementById('goal_phd').style.display = "block"
+}
+
+function dic_ss(){
+   document.getElementById('dic_ss').style.display = 'block';
+   document.getElementById('dic_pro').style.display = 'none';
+}
+
+function dic_pro(){
+   document.getElementById('dic_ss').style.display = 'none';
+   document.getElementById('dic_pro').style.display = 'block';
 }
