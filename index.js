@@ -125,7 +125,7 @@ function courses(){
   document.getElementById("courses").style.display = "block";
   document.getElementById("artpap").style.display = "none";
 }
-function corbooks(){
+function art_pap(){
   document.getElementById("homess").style.display = "none";
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "none";
