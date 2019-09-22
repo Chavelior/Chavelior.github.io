@@ -102,24 +102,35 @@ function home_ss(){
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "none";
   document.getElementById("courses").style.display = "none";
+  document.getElementById("artpap").style.display = "none";
 }
 function uni_topic(){
   document.getElementById("homess").style.display = "none";
   document.getElementById("unitopic").style.display = "block";
   document.getElementById("corbooksid").style.display = "none";
   document.getElementById("courses").style.display = "none";
+  document.getElementById("artpap").style.display = "none";
 }
 function corbooks(){
   document.getElementById("homess").style.display = "none";
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "block";
   document.getElementById("courses").style.display = "none";
+  document.getElementById("artpap").style.display = "none";
 }
 function courses(){
   document.getElementById("homess").style.display = "none";
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "none";
   document.getElementById("courses").style.display = "block";
+  document.getElementById("artpap").style.display = "none";
+}
+function corbooks(){
+  document.getElementById("homess").style.display = "none";
+  document.getElementById("unitopic").style.display = "none";
+  document.getElementById("corbooksid").style.display = "none";
+  document.getElementById("courses").style.display = "none";
+  document.getElementById("artpap").style.display = "block";
 }
 
 function dmq_ss(){
