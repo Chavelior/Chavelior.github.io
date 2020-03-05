@@ -36,11 +36,6 @@ function personalInfo(){
   }
 }
 
-function acad_deadline(){
-   document.getElementById('acad_deadlines').style.display = 'block';
-   document.getElementById('selfchal').style.display = 'none';
-}
-
 function selfchal(){
    document.getElementById('acad_deadlines').style.display = 'none';
    document.getElementById('selfchal').style.display = 'block';
@@ -55,47 +50,7 @@ function selfchal(){
    document.getElementById("selfChal").style.display = "block";
 }
 
-function acad_deadline(){
-   document.getElementById("acad_deadlines").style.display = "block";
-   document.getElementById("selfChal").style.display = "none";
-}
 
-function acad_home(){
-  document.getElementById("mec_tab").style.display = "none";
-  document.getElementById("dic_tab").style.display = "none";
-  document.getElementById("sdm_tab").style.display = "none";
-  document.getElementById("dmq_tab").style.display = "none";
-  document.getElementById("acad_home").style.display = "block";
-}
-
-function mech_learn(){
-  document.getElementById("mec_tab").style.display = "block";
-  document.getElementById("dic_tab").style.display = "none";
-  document.getElementById("sdm_tab").style.display = "none";
-  document.getElementById("acad_home").style.display = "none";
-  document.getElementById("dmq_tab").style.display = "none";
-}
-function dic(){
-  document.getElementById("dic_tab").style.display = "block";
-  document.getElementById("mec_tab").style.display = "none";
-  document.getElementById("sdm_tab").style.display = "none";
-  document.getElementById("acad_home").style.display = "none";
-  document.getElementById("dmq_tab").style.display = "none";
-}
-function sdm2(){
-  document.getElementById("sdm_tab").style.display = "block";
-  document.getElementById("dic_tab").style.display = "none";
-  document.getElementById("mec_tab").style.display = "none";
-  document.getElementById("acad_home").style.display = "none";
-  document.getElementById("dmq_tab").style.display = "none";
-}
-function dmq(){
-  document.getElementById("sdm_tab").style.display = "none";
-  document.getElementById("dic_tab").style.display = "none";
-  document.getElementById("mec_tab").style.display = "none";
-  document.getElementById("acad_home").style.display = "none";
-  document.getElementById("dmq_tab").style.display = "block";
-}
 
 function home_ss(){
   document.getElementById("homess").style.display = "block";

@@ -18,7 +18,7 @@
          margin: 10px;
          }
          p {
-         color: white;
+         color: black;
          font-family: 'Helvetica Neue',Helvetica;
          font-weight: 200;
          margin: 20px;
@@ -120,27 +120,18 @@
       <div class="tab">
          <button class="tablinks" onclick="personalInfo()">AKHILA DEVABHAKTUNI</button>
          <button class="tablinks" onclick="eventdirect(event,'Deadlines')">Dead Lines</button>
-         <button class="tablinks" onclick="eventdirect(event,'Academics')">Academics</button>
          <button class="tablinks" onclick="eventdirect(event, 'selfStudy')">Self Study</button>
          <button class="tablinks" onclick="eventdirect(event, 'goals')">Goals</button>
          <button class="tablinks" onclick="eventdirect(event, 'contactInfo')">Contact Information</button>
       </div>
+
+      <!--Deadlines Section on Overhead bar-->
       <div id="Deadlines" class="tabcontent box">
          <h3>Approaching Deadlines</h3>
          <div class="sidenav">
-            <a href="#" onclick="acad_deadline()">Academics</a>
             <a href="#" onclick="selfchal()">Self assigned challenges</a>
-            <a href="#">Personal</a>
          </div>
-         <div id="acad_deadlines" style="display:none; color:white;">
-            <p style="color:white;">Academic Deadlines</p>
-            <p>This includes deadlines of homework, assignments and exams</p>
-            <ul>
-               <li>Data Intensive computing: Checkout Amazon AWS </li>
-               <li>Tensor flow for Machine Learning</li>
-            </ul>
-         </div>
-         <div id="selfChal" style="display:none">
+         <div id="selfChal" style="display:block">
             <ul style="color:white; text-align:left;">
                <li>Machine Learning book in MIT challenge</li>
                <li>Python for machine learning</li>
@@ -149,159 +140,7 @@
             </ul>
          </div>
       </div>
-      <div id="Academics" class="tabcontent box">
-         <div class="sidenav">
-            <a href="#" onclick="acad_home()">Home</a>
-            <a href="#" onclick="mech_learn()">Machine Learning</a>
-            <a href="#" onclick="dic()">Data Intensive computing</a>
-            <a href="#" onclick="sdm2()">Statistical Data Mining 2</a>
-            <a href="#" onclick="dmq()">Data models and query languages</a>
-         </div>
-         <div id="acad_home">
-            <p>Academics</p>
-            <p>Statistical Data Mining, writeup part</p>
-            <p>Machine Learning weekkly stuff</p>
-            <p>Data Intensive Computing(Review Part 1 and complete part2)</p>
-            <p>Akhil Data Models and query languages material</p>
-         </div>
-         <div id="mec_tab" style="display:none">
-            <p>Machine Learning</p>
-            <p>Weekly Review</p>
-            <!--<h1 style="color:DF2700;">QUIZ 1!!!</h1>-->
-            <button onclick="mec_oic()">Ongoing in class</button>
-            <button onclick="mec_ss()">Self study</button>
-            <button onclick="mec_res()">Resources</button>
-            <button onclick="mec_ass()">Assignments</button>
-            <button onclick="mec_pro()">Projects</button>
-            <button onclick="mec_mid()">Mid Sem Exam</button>
-            <button onclick="mec_final()">Final Exam</button>
-            <div id="mec_oic" style="display:none;">
-               <p style="color:white;">Go through matrix cookbook in UB learns.</p>
-            </div>
-            <div id="mec_ss" style="display:none;">
-               <ul style="text-align:left; color:white;">
-                  <li>Machine learning with Python(Have to start)</li>
-               </ul>
-            </div>
-            <div id="mec_res" style="display:none;">
-            </div>
-            <div id="mec_pro" style="display:none;">
-            </div>
-            <div id="mec_mid" style="display:none;">
-            </div>
-            <div id="mec_final" style="display:none;">
-               <h3 style="color:white;"> Final Exam : 14-May-2019</h3>
-            </div>
-            <div id="mec_ass" style="display:none;">
-               <h5 style="color:white">Assignments</h5>
-               <ul style="text-align:left; color:white;">
-                  <li>Assignment1: </li>
-                  <li>Assignment2: </li>
-                  <li>Assignment3: </li>
-               </ul>
-               </br>
-            <h5 style="color:white">Weekly Quiz</h5>
-               <ul style="text-align:left; color:white;">
-                  <li>Quiz0: (9/9)</li>
-                  <li>Quiz1: (9/9) Three attempts.(Naive Bayes Algorithm Vs Bayesian)</li>
-                  <li>Quiz2: </li>
-                  <li>Quiz3: </li>
-                  <li>Quiz4: </li>
-                  <li>Quiz5: </li>
-                  <li>Quiz6: </li>
-                  <li>Quiz7: </li>
-                  <li>Quiz8: </li>
-                  <li>Quiz9: </li>
-                  <li>Quiz10: </li>
-                  <li>Quiz11: </li>
-                  <li>Quiz12: </li>
-               </ul>
-            </div>
-         </div>
-         <div id="dic_tab" style="display:none">
-            <p>Data Intensive Computing</p>
-            <h1 style="color:DF2700">Project 1</h1>
-            <a href="https://cse.buffalo.edu/~bina/cse487/spring2019/index.html">Course link(DIC)</a>
-            <br/>
-            <button onclick="dic_oic()">Ongoing in class</button>
-            <button onclick="dic_ss()">Self study</button>
-            <button onclick="dic_ass()">Assignments</button>
-            <button onclick="dic_pro()">Projects</button>
-            <button onclick="dic_mid()">Mid Sem Exam</button>
-            <button onclick="dic_final()">Final Exam</button>
-            <div id="dic_ss"style="display:none;">
-               <ul>
-                  <p>Week1:</p>
-                  <li>Professor suggested book:Fourth Paradigm(Done with someguys lecture. Has to start chapter 1.)</li>
-                  <li>Amazon AWS credentials obtained</li>
-               </ul>
-            </div>
-            <div id="dic_pro"style="display:none; color:white">
-               <ul>
-                  <p>Project 1:</p>
-                  <li>Update the progress and set goals.</li>
-               </ul>
-            </div>
-         </div>
-         <div id="sdm_tab" style="display:none">
-            <h2 style="color:white;">Statistical Data Mining</h2>
-            <p>Weekly Review</p>
-            <p style="color:white;">TA office hours : Tue - Thurs (11am to 1pm- Bell 250) </p>
-            <button onclick="sdm_oic()">Ongoing in class</button>
-            <button onclick="sdm_ss()">Self study</button>
-            <button onclick="sdm_final()">Resources</button>
-            <button onclick="sdm_ass()">Assignments</button>
-            <button onclick="sdm_pro()">Projects</button>
-            <button onclick="sdm_mid()">Mid Sem Exam</button>
-            <button onclick="sdm_final()">Final Exam</button>
-            <div id="sdm_ss" style="display:none;">
-               <h3 style="color:white;">Week:3(Self study)</h3>
-               <ul style="color:white; text-align:left;">
-                  <li>Learn usage of Arules package.</li>
-               </ul>
-               <h3 style="color:white;">Week:2(Self study)</h3>
-               <ul style="color:white; text-align:left;">
-                  <li>Research papers Arules and bump hunting. &#10003;</li>
-                  <li href="https://www.statmethods.net/advstats/cart.html">Chapter 14(Association rules), CART chapter Introduction to statistical Learning.</li>
-                  <li>CART chapter revise</li>
-                  <li>T tests, AIC, BIC, Bagging, Boosting, Bootstrapping.</li>
-                  <li>Netflix datascience positions.</li>
-               </ul>
-            </div>
-            <div id="sdm_ass" style="display:none;">
-               <p>Assignment 1 : (Deadline 2/27)</p>
-               <p>Max points : 40</p>
-            </div>
-         </div>
-         <div id="dmq_tab" style="display:none">
-            <h3>Data Models and query languages</h3>
-            <p>Weekly Review</p>
-            <button onclick="dmq_oic()">Ongoing in class</button>
-            <button onclick="dmq_ss()">Self study</button>
-            <button onclick="dmq_final()">Resources</button>
-            <button onclick="dmq_ass()">Assignments</button>
-            <button onclick="dmq_pro()">Projects</button>
-            <button onclick="dmq_mid()">Mid Sem Exam</button>
-            <button onclick="dmq_final()">Final Exam</button>
-            <div id="dmq_oic" style="display:none;">
-               <p>Chapter 1 till, advantages of database managment systems.</p>
-            </div>
-            <div id="dmq_ss" style="display:none;">
-               <h3>Week:2</h3>
-               <ul>
-                  <li>Chapter1: Data Models.</li>
-                  <li>Oracle Database Managment System usage</li>
-               </ul>
-               <h3>Week:3</h3>
-               <ul>
-                  <li>Chapter3: ER, EER.</li>
-                  <li>Weak entity type</li>
-                  <li>Ask Akhil for notes</li>
-               </ul>
-            </div>
-         </div>
-      </div>
-      </div>
+
       <div id="selfStudy" class="tabcontent box" style="float: right;display: block;width: 460px;">
          <div class="sidenav">
             <a href="#" onclick="home_ss()">Home</a>
