@@ -53,7 +53,6 @@ function selfchal(){
 
 
 function uni_topic(){
-  document.getElementById("homess").style.display = "none";
   document.getElementById("unitopic").style.display = "block";
   document.getElementById("corbooksid").style.display = "none";
   document.getElementById("courses").style.display = "none";
@@ -61,7 +60,6 @@ function uni_topic(){
   document.getElementById("interprep").style.display = "none";
 }
 function corbooks(){
-  document.getElementById("homess").style.display = "none";
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "block";
   document.getElementById("courses").style.display = "none";
@@ -69,7 +67,6 @@ function corbooks(){
   document.getElementById("interprep").style.display = "none";
 }
 function courses(){
-  document.getElementById("homess").style.display = "none";
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "none";
   document.getElementById("courses").style.display = "block";
@@ -77,7 +74,6 @@ function courses(){
   document.getElementById("interprep").style.display = "none";
 }
 function art_pap(){
-  document.getElementById("homess").style.display = "none";
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "none";
   document.getElementById("courses").style.display = "none";
@@ -85,7 +81,6 @@ function art_pap(){
   document.getElementById("interprep").style.display = "none";
 }
 function inter_prep(){
-  document.getElementById("homess").style.display = "none";
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "none";
   document.getElementById("courses").style.display = "none";
