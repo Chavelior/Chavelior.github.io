@@ -31,9 +31,9 @@ function w3_close() {
 function personalInfo(){
   document.getElementById("mainInfo").style.display = "block";
   tabcontent = document.getElementsByClassName("tabcontent");
+  $("button[class=tablinks]").removeClass("active")
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
-    tabcontent[i].removeClass("active");
   }
 }
 
