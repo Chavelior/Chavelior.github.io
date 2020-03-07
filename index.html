@@ -2,6 +2,7 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
    <head>
+      <!--[if lte IE 8]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
       <style>
          body {
          background: url('BK_ES.png') no-repeat center center fixed;
@@ -123,6 +124,7 @@
          <button class="tablinks" onclick="eventdirect(event, 'selfStudy')" style="font-family:Palatino; font-size:20; margin-top:6px">Self Study</button>
          <button class="tablinks" onclick="eventdirect(event, 'goals')" style="font-family:Palatino; font-size:20; margin-top:6px">Goals</button>
          <button class="tablinks" onclick="eventdirect(event, 'contactInfo')" style="font-family:Palatino; font-size:20; margin-top:6px">Contact Information</button>
+         <canvas id="display" width="120" height="34" style="margin-top:12px; margin-right:30px; float:right;"></canvas>
       </div>
 
       <!--Deadlines Section on Overhead bar-->
@@ -274,7 +276,7 @@
          <p>Book reviews and things I like. I need to write a databas for this.</p>
          <p>I wanna experiment with new databases.</p>
       </div>
-      
+
       <div id="contactInfo" class="tabcontent box">
          <h3>Personal contact information</h3>
          <ul>
@@ -284,6 +286,7 @@
          </a>
       </div>
       <div class="box" id="mainInfo">
+
          <h1 style="font-family:fantasy; font-size:40px;">" Summom Bonum - To the highest good "</h1>
          <p>
             <i></i>
@@ -302,4 +305,39 @@
       </div>
    </body>
    <script type="text/javascript" src="index.js"></script>
+   <!--[if lt IE 9]>
+  <script type="text/javascript" src="excanvas.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="segment-display.js"></script>
+<script type="text/javascript">
+
+  var display = new SegmentDisplay("display");
+  display.pattern         = "##:##:##";
+  display.cornerType      = 2;
+  display.displayType     = 7;
+  display.displayAngle    = 9;
+  display.digitHeight     = 20;
+  display.digitWidth      = 12;
+  display.digitDistance   = 2;
+  display.segmentWidth    = 3;
+  display.segmentDistance = 0.5;
+  display.colorOn         = "rgba(0, 0, 0, 0.9)";
+  display.colorOff        = "rgba(0, 0, 0, 0.1)";
+
+  animate();
+
+  function animate() {
+    var time    = new Date();
+    var hours   = time.getHours();
+    var minutes = time.getMinutes();
+    var seconds = time.getSeconds();
+    var value   = ((hours < 10) ? ' ' : '') + hours
+                + ':' + ((minutes < 10) ? '0' : '') + minutes
+                + ':' + ((seconds < 10) ? '0' : '') + seconds;
+    display.setValue(value);
+    window.setTimeout('animate()', 100);
+  }
+
+</script>
 </html>
