@@ -29,13 +29,12 @@ function w3_close() {
 }
 
 function personalInfo(){
-  document.getElementById("mainInfo").style.display = "block";
+  //document.getElementById("mainInfo").style.display = "block";
   tabcontent = document.getElementsByClassName("tabcontent");
 
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
-  $("button[class=tablinks]").removeClass("active")
 }
 
 function selfchal(){
