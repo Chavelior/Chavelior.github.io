@@ -84,7 +84,7 @@
          /* The sidebar menu */
          .sidenav {
          height: 80%; /* Full-height: remove this if you want "auto" height */
-         width: 200px; /* Set the width of the sidebar */
+         width: 250px; /* Set the width of the sidebar */
          position: fixed; /* Fixed Sidebar (stay in place on scroll) */
          z-index: 1; /* Stay on top */
          top: 100; /* Stay at the top */
@@ -120,13 +120,26 @@
    <body>
       <div class="tab">
          <button class="tablinks" onclick="eventdirect(event, 'mainInfo')" style="font-family:Courier; font-size:30px">AKHILA_DEVABHAKTUNI</button>
-         <button class="tablinks" onclick="eventdirect(event,'Deadlines')" style="font-family:Palatino; font-size:20; margin-top:6px">Dead Lines</button>
-         <button class="tablinks" onclick="eventdirect(event, 'selfStudy')" style="font-family:Palatino; font-size:20; margin-top:6px">Self Study</button>
+         <button class="tablinks" onclick="eventdirect(event,'Deadlines')" style="font-family:Palatino; font-size:20; margin-top:6px">check_point</button>
+         <button class="tablinks" onclick="eventdirect(event, 'selfStudy')" style="font-family:Palatino; font-size:20; margin-top:6px">personal_space</button>
          <button class="tablinks" onclick="eventdirect(event, 'goals')" style="font-family:Palatino; font-size:20; margin-top:6px">Goals</button>
          <button class="tablinks" onclick="eventdirect(event, 'contactInfo')" style="font-family:Palatino; font-size:20; margin-top:6px">Contact Information</button>
          <canvas id="display" width="120" height="34" style="margin-top:12px; margin-right:30px; float:right;"></canvas>
       </div>
+      <div class="box" id="mainInfo">
 
+         <h1 style="font-family:fantasy; font-size:40px;">" Summom Bonum - To the highest good "</h1>
+         <p>
+            "In your actions, don’t procrastinate. In your conversations, don’t confuse. In your thoughts, don’t wander. In your soul, don’t be passive or aggressive. In your life, don’t be all about business."
+         </p>
+         <p>
+            Marcus Aurelius
+         </p>
+         <br/>
+         <br />
+         <p>This weeks song :</p>
+         <a href="https://www.youtube.com/watch?v=aXjdMV7SOfE&list=RDQEdPe1SxitI&index=2" style="color:black;">Unforgettable - Nat King Cole</a>
+      </div>
       <!--Deadlines Section on Overhead bar-->
       <div id="Deadlines" class="tabcontent box">
          <h3>Approaching Deadlines</h3>
@@ -145,24 +158,25 @@
 
       <div id="selfStudy" class="tabcontent box" style="width: 460px;">
          <div class="sidenav">
-            <a href="#" onclick="courses()">Courses</a>
-            <a href="#" onclick="corbooks()">Course Books</a>
+            <a href="#" onclick="courses()">external_resources</a>
+            <a href="#" onclick="corbooks()">acad_books</a>
             <a href="#" onclick="uni_topic()">Unique Topics</a>
-            <a href="#" onclick="art_pap()">Papers and articles</a>
+            <a href="#" onclick="rsrch_pap()">research_papers</a>
+            <a href="#" onclick="art_pap()">interesting_articles</a>
             <a href="#" onclick="inter_prep()">Interview Preparation</a>
          </div>
-         <div id="artpap" style="display:none; align=left; color:white;">
+         <div id="artpap" style="display:none; align=left; color:black;">
             <h3>Interesting Articles</h3>
             <h3>Combining VAE, GAN, CPNN for predicting MNIST shapes</h3>
             <a href="http://blog.otoro.net/2016/04/01/generating-large-images-from-latent-vectors/">Blog Post(GAN + VAE + CPNN)</a>
          </div>
          <div id="unitopic" style="display:none">
-            <h3 style="color:white">Unique Topics</h3>
+            <h3 style="color:black">Unique Topics</h3>
             <button onclick="ss_dm()">Data Mining topics</button>
             <button onclick="ss_ml()">Machine Learning topics</button>
 
             <div id="ss_ml" style="display:none;">
-               <ul style="text-align:left; color:white;">
+               <ul style="text-align:left; color:black;">
                   <li>Machine learning for Python.</li>
                   <li>Scikit learn library in Python</li>
                </ul>
@@ -202,35 +216,35 @@
             </div>
 
             <div id="ss_dm" style="display:none;">
-               <ul style="text-align:left; color:white;">
+               <ul style="text-align:left; color:black;">
                   <li>Regression trees in An introduciton to statistical learning.</li>
                   <li>Text analysis.(Checkout 'quanteda' package in R)</li>
                </ul>
             </div>
          </div>
          <div id="courses" style="display:none;">
-            <h3 style="color:white;">Resources available</h3>
-            <a href="https://github.com/owainlewis/awesome-artificial-intelligence" style="color:white;">Awesome Artifcial Intelligence in Github</a>
+            <h3>Resources available</h3>
+            <a href="https://github.com/owainlewis/awesome-artificial-intelligence">Awesome Artifcial Intelligence in Github</a>
             <br>
-            <a href="https://see.stanford.edu/Course/CS229/50" style="color:white;">Stanford Machine Learning(Same structure as IML)</a>
+            <a href="https://see.stanford.edu/Course/CS229/50">Stanford Machine Learning(Same structure as IML)</a>
             <br>
-            <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/" style="color:white;">Artificial Intelligence(MIT)</a>
+            <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/">Artificial Intelligence(MIT)</a>
             <br>
-            <a href="http://stat.columbia.edu/~porbanz/npb-tutorial.html#sec:videos" style="color:white;">Bayesian Non-parametric models.</a>
+            <a href="http://stat.columbia.edu/~porbanz/npb-tutorial.html#sec:videos">Bayesian Non-parametric models.</a>
             <br>
-            <a href="https://www.stats.ox.ac.uk/~teh/npbayes.html" style="color:white;">Yee Whye Teh Bayesian Non-param</a>
+            <a href="https://www.stats.ox.ac.uk/~teh/npbayes.html">Yee Whye Teh Bayesian Non-param</a>
             <br>
-            <a href="https://www.sciencedirect.com/topics/mathematics/nonparametric-model" style="color:white;">Nonparametric models</a>
+            <a href="https://www.sciencedirect.com/topics/mathematics/nonparametric-model">Nonparametric models</a>
             <br>
-            <a href="https://machinelearningmastery.com/parametric-and-nonparametric-machine-learning-algorithms/" style="color:white;">Param VS Non-param</a>
+            <a href="https://machinelearningmastery.com/parametric-and-nonparametric-machine-learning-algorithms/">Param VS Non-param</a>
             <br>
-            <a href="https://cs.stanford.edu/people/eroberts/courses/soco/projects/neural-networks/History/index.html" style="color:white;">Interactive Neural Networks Lecture</a>
+            <a href="https://cs.stanford.edu/people/eroberts/courses/soco/projects/neural-networks/History/index.html">Interactive Neural Networks Lecture</a>
             <br>
-            <a href="http://deeplearning.net/reading-list/" style="color:white;">Deep learning</a>
+            <a href="http://deeplearning.net/reading-list/">Deep learning</a>
             <br>
-            <a href="https://medium.com/@zaidalissa/what-are-parametric-vs-nonparametric-models-8bfa20726f4d" style="color:white;">Param VS Non-parametric(Medium)</a>
+            <a href="https://medium.com/@zaidalissa/what-are-parametric-vs-nonparametric-models-8bfa20726f4d">Param VS Non-parametric(Medium)</a>
             <br>
-            <a href="https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=spiral&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.54123&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false" style="color:white;">Tensor flow NN</a>
+            <a href="https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=spiral&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.54123&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false">Tensor flow NN</a>
             <br>
          </div>
          <div id="corbooksid" style="display:none">
@@ -240,13 +254,11 @@
                <li>MIT challenge book for Machine learning.</li>
             </ul>
          </div>
-         <div id="interprep" style="display:none; align=left; color:white;">
+         <div id="interprep" style="display:none; align=left; color:black;">
             <h3>Part 1:</h3>
             <h3>Machine Learning Algorithms<a href="https://github.com/ShuaiW/ml-interview">Github Link</a></h3>
             <h3>Part 2:</h3>
             <h3>Python and SQL language prep (Python Book)</h3>
-            <h3>Part 3:</h3>
-            <h3>Real life problems prep</h3>
          </div>
       </div>
       <div id="goals" class="tabcontent box">
@@ -285,24 +297,7 @@
          <a href="https://www.facebook.com/akhiladevi.devabhaktuni" class="fa fa-facebook">
          </a>
       </div>
-      <div class="box" id="mainInfo">
 
-         <h1 style="font-family:fantasy; font-size:40px;">" Summom Bonum - To the highest good "</h1>
-         <p>
-            <i></i>
-         </p>
-         <p>
-            "In your actions, don’t procrastinate. In your conversations, don’t confuse. In your thoughts, don’t wander. In your soul, don’t be passive or aggressive. In your life, don’t be all about business."
-         </p>
-         <p>
-            Marcus Aurelius
-         </p>
-         <br/>
-         <br />
-         <br />
-         <p>This weeks song :</p>
-         <a href="https://www.youtube.com/watch?v=aXjdMV7SOfE&list=RDQEdPe1SxitI&index=2" style="color:black;">Unforgettable - Nat King Cole</a>
-      </div>
    </body>
    <script type="text/javascript" src="index.js"></script>
    <!--[if lt IE 9]>
