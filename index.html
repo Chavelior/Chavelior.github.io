@@ -162,7 +162,7 @@
 
       <div id="headArea" class="tabcontent box">
          <div class="sidenav">
-            <a href="#" onclick="courses()">external_resources</a>
+            <a href="#" onclick="exterSources()">external_resources</a>
             <a href="#" onclick="corbooks()">acad_books</a>
             <a href="#" onclick="uni_topic()">Unique Topics</a>
             <a href="#" onclick="rsrch_pap()">research_papers</a>
@@ -170,12 +170,15 @@
             <a href="#" onclick="math_concpt()">Math concepts</a>
             <a href="#" onclick="inter_prep()">Interview Preparation</a>
          </div>
+
          <div id="artpap" style="display:none; align=left; color:black;">
             <h3>Interesting Articles</h3>
             <h3>Combining VAE, GAN, CPNN for predicting MNIST shapes</h3>
             <a href="http://blog.otoro.net/2016/04/01/generating-large-images-from-latent-vectors/">Blog Post(GAN + VAE + CPNN)</a>
          </div>
+
          <div id="unitopic" style="display:none">
+            <h4>Topic in hand : Support Vector Machines(Types of Kernels : RBF)</h4>
             <h3 style="color:black">Unique Topics</h3>
             <button onclick="ss_dm()">Data Mining topics</button>
             <button onclick="ss_ml()">Machine Learning topics</button>
@@ -219,7 +222,6 @@
                   <a href="http://cs230.stanford.edu/projects_fall_2018/reports/12365342.pdf">Stanford CNN(Best Project Paper)</a>
                </div>
             </div>
-
             <div id="ss_dm" style="display:none;">
                <ul style="text-align:left; color:black;">
                   <li>Regression trees in An introduciton to statistical learning.</li>
@@ -227,7 +229,8 @@
                </ul>
             </div>
          </div>
-         <div id="courses" style="display:none;">
+
+         <div id="extr_srcs" style="display:none;">
             <h3>Resources available</h3>
             <a href="https://github.com/owainlewis/awesome-artificial-intelligence">Awesome Artifcial Intelligence in Github</a>
             <br>
@@ -276,19 +279,18 @@
          </div>
       </div>
 
+
+      <!--         Personal Space         -->
       <div id="personalSpace" class="tabcontent box">
          <div class="sidenav">
             <a href="#" onclick="books()">Books</a>
             <a href="#" onclick="websites()">Websites</a>
             <a href="#" onclick="math_puzz()">Math puzzles</a>
-            <a href="#" onclick="websites()">People</a>
+            <a href="#" onclick="people()">People</a>
          </div>
 
          <div id='prsnl_space'>
             <p>I have no idea why I'm putting this off.</p>
-            <a href="https://ai.facebook.com/blog/-powered-by-ai-turning-any-2d-photo-into-3d-using-convolutional-neural-nets/">
-               Converting any 2D picture into 3D picture (15 min)
-            </a>
             <br/>
             <a href="https://www.youtube.com/watch?v=HUzqhI-BKag&feature=youtu.be&fbclid=IwAR2OLQWBeSuOkKZxtKIcgssG87RjIHZZ6aE4RWc5FKrXlWnsoPte8bweSRY">
                Yann LeCun speech at Cosyne 2019 - Feedforward networks, deep and shallow. (1hr 18min)

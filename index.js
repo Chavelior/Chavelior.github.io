@@ -56,116 +56,42 @@ function selfchal(){
 function uni_topic(){
   document.getElementById("unitopic").style.display = "block";
   document.getElementById("corbooksid").style.display = "none";
-  document.getElementById("courses").style.display = "none";
+  document.getElementById("extr_srcs").style.display = "none";
   document.getElementById("artpap").style.display = "none";
   document.getElementById("interprep").style.display = "none";
 }
 function corbooks(){
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "block";
-  document.getElementById("courses").style.display = "none";
+  document.getElementById("extr_srcs").style.display = "none";
   document.getElementById("artpap").style.display = "none";
   document.getElementById("interprep").style.display = "none";
 }
-function courses(){
+function exterSources(){
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "none";
-  document.getElementById("courses").style.display = "block";
+  document.getElementById("extr_srcs").style.display = "block";
   document.getElementById("artpap").style.display = "none";
   document.getElementById("interprep").style.display = "none";
 }
 function art_pap(){
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "none";
-  document.getElementById("courses").style.display = "none";
+  document.getElementById("extr_srcs").style.display = "none";
   document.getElementById("artpap").style.display = "block";
   document.getElementById("interprep").style.display = "none";
 }
 function inter_prep(){
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "none";
-  document.getElementById("courses").style.display = "none";
+  document.getElementById("extr_srcs").style.display = "none";
   document.getElementById("artpap").style.display = "none";
   document.getElementById("interprep").style.display = "block";
 }
 
-function dmq_ss(){
-  document.getElementById("dmq_ss").style.display = "block";
-}
-
-function sdm_ss(){
-  document.getElementById("sdm_ss").style.display = "block";
-  document.getElementById("sdm_ass").style.display = "none";
-}
-
-function sdm_ass(){
-  document.getElementById("sdm_ass").style.display = "block";
-  document.getElementById("sdm_ss").style.display = "none";
-}
-
-
-function mec_ass(){
-  document.getElementById("mec_ass").style.display = "block";
-  document.getElementById("mec_oic").style.display = "none";
-  document.getElementById("mec_ss").style.display = "none";
-  document.getElementById("mec_final").style.display = "none";
-  document.getElementById("mec_pro").style.display = "none";
-  document.getElementById("mec_mid").style.display = "none";
-  document.getElementById("mec_res").style.display = "none";
-}
-function mec_oic(){
-  document.getElementById("mec_ass").style.display = "none";
-  document.getElementById("mec_oic").style.display = "block";
-  document.getElementById("mec_ss").style.display = "none";
-  document.getElementById("mec_final").style.display = "none";
-  document.getElementById("mec_pro").style.display = "none";
-  document.getElementById("mec_mid").style.display = "none";
-  document.getElementById("mec_res").style.display = "none";
-}
-function mec_ss(){
-  document.getElementById("mec_ss").style.display = "block";
-  document.getElementById("mec_oic").style.display = "none";
-  document.getElementById("mec_ass").style.display = "none";
-  document.getElementById("mec_final").style.display = "none";
-  document.getElementById("mec_pro").style.display = "none";
-  document.getElementById("mec_mid").style.display = "none";
-  document.getElementById("mec_res").style.display = "none";
-}
-function mec_final(){
-  document.getElementById("mec_ass").style.display = "none";
-  document.getElementById("mec_oic").style.display = "none";
-  document.getElementById("mec_ss").style.display = "none";
-  document.getElementById("mec_final").style.display = "block";
-  document.getElementById("mec_pro").style.display = "none";
-  document.getElementById("mec_mid").style.display = "none";
-  document.getElementById("mec_res").style.display = "none";
-}
-function mec_pro(){
-  document.getElementById("mec_ass").style.display = "none";
-  document.getElementById("mec_oic").style.display = "none";
-  document.getElementById("mec_ss").style.display = "none";
-  document.getElementById("mec_final").style.display = "none";
-  document.getElementById("mec_pro").style.display = "block";
-  document.getElementById("mec_mid").style.display = "none";
-  document.getElementById("mec_res").style.display = "none";
-}
-function mec_mid(){
-  document.getElementById("mec_ass").style.display = "none";
-  document.getElementById("mec_oic").style.display = "none";
-  document.getElementById("mec_ss").style.display = "none";
-  document.getElementById("mec_final").style.display = "none";
-  document.getElementById("mec_pro").style.display = "none";
-  document.getElementById("mec_mid").style.display = "block";
-  document.getElementById("mec_res").style.display = "none";
-}
-function mec_res(){
-  document.getElementById("mec_ass").style.display = "none";
-  document.getElementById("mec_oic").style.display = "none";
-  document.getElementById("mec_ss").style.display = "none";
-  document.getElementById("mec_final").style.display = "none";
-  document.getElementById("mec_pro").style.display = "none";
-  document.getElementById("mec_mid").style.display = "none";
-  document.getElementById("mec_res").style.display = "block";
+function websites(){
+   document.getElementById("prsnl_space").style.display = "none";
+   document.getElementById("wbsts").style.display = "block";
 }
 
 function ss_dm(){
@@ -178,21 +104,6 @@ function ss_ml(){
    document.getElementById("ss_ml").style.display = "block";
 }
 
-function dmq_oic(){
-   document.getElementById("dmq_oic").style.display = "block";
-   document.getElementById("dmq_ss").style.display = "none";
-}
-
 function goal_phd(){
    document.getElementById('goal_phd').style.display = "block"
-}
-
-function dic_ss(){
-   document.getElementById('dic_ss').style.display = 'block';
-   document.getElementById('dic_pro').style.display = 'none';
-}
-
-function dic_pro(){
-   document.getElementById('dic_ss').style.display = 'none';
-   document.getElementById('dic_pro').style.display = 'block';
 }
