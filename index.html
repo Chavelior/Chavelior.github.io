@@ -128,6 +128,8 @@
          <button class="tablinks" onclick="eventdirect(event, 'contactInfo')" style="font-family:Palatino; font-size:20; margin-top:6px">Contact Information</button>
          <canvas id="display" width="120" height="34" style="margin-top:12px; margin-right:30px; float:right;"></canvas>
       </div>
+
+      <!--        Main Page      -->
       <div class="box" id="mainInfo">
 
          <h1 style="font-family:fantasy; font-size:40px;">" Summom Bonum - To the highest good "</h1>
@@ -160,6 +162,7 @@
          </div>
       </div>
 
+      <!--         Head Area         -->
       <div id="headArea" class="tabcontent box">
          <div class="sidenav">
             <a href="#" onclick="exterSources()">external_resources</a>
@@ -280,16 +283,16 @@
          </div>
       </div>
 
-
       <!--         Personal Space         -->
       <div id="personalSpace" class="tabcontent box">
+         <!--         Sidenav         -->
          <div class="sidenav">
             <a href="#" onclick="books()">Books</a>
             <a href="#" onclick="websites()">Websites</a>
             <a href="#" onclick="math_puzz()">Math puzzles</a>
             <a href="#" onclick="people()">People</a>
          </div>
-
+         <!--         Initial display         -->
          <div id='prsnl_space'>
             <p>I have no idea why I'm putting this off.</p>
             <br/>
@@ -297,7 +300,55 @@
                Yann LeCun speech at Cosyne 2019 - Feedforward networks, deep and shallow. (1hr 18min)
             </a>
          </div>
+         <!--         Books         -->
+         <div id="books_all" style='display:none;'>
+            <p>As grateful as I am to travel through time, lives and dimensions through books, organising my stash is near impossible. </p>
+            <p>This is yet another futile attempt at trying to keep track.</p>
+            <button onclick="books_table()">Books on the table</button>
+            <button onclick="books_shelf()">Books on the shelf</button>
+            <button onclick="books_store()">Books in store</button>
+            <button onclick="books_read()">Books read</button>
 
+            </br>
+            <button onclick="authors()">Authors</button>
+
+            <div id='books_table' style='display:none'>
+               <ul>
+                  <li>Warriors don't cry - Melba Pattillo Beals</li>
+                  <li>A walk into the woods - Bill Bryson</li>
+                  <li>The bell jar - Sylvia Plath</li>
+               </ul>
+            </div>
+            <div id='books_shelf' style='display:none'>
+               <ul>
+                  <li><a href='https://www.wolframscience.com/nks/p1--an-outline-of-basic-ideas/'>A new kind of science</a> - Stephen Wolfrom</li>
+                  <li>A walk into the woods - Bill Bryson</li>
+                  <li>The bell jar - Sylvia Plath</li>
+               </ul>
+            </div>
+            <div id='books_store' style='display:none'>
+            </div>
+            <div id='books_read' style='display:none'>
+               <p>In no particular order and only a few mentioned. </p>
+               <ul>
+                  <li>The Scarlet letter - Nathaniel Hawthorne</li>
+                  <li>Kafka on the shore - Haruki Murakami</li>
+                  <li>A gentlemen in Moscow - Amor Towels</li>
+                  <li>Pachinko - Lee Min Jin</li>
+                  <li>Dead souls - Nikolai Gogol</li>
+                  <li>One flew over the cuckoo's nest - Ken Kesey</li>
+                  <li>The city and the pillar - Gore Vidal</li>
+                  <li>All the light we can't see - Anthony Doerr</li>
+                  <li>Little women - Louisa May Alcott</li>
+                  <li>Turtles all the way down - John Greene</li>
+                  <li>Lolita - Vladimir Nabokov</li>
+                  <li>Flowers for Algernon - Daniel Keys</li>
+               </ul>
+            </div>
+            <div id='authors' style='display:none'>
+            </div>
+         </div>
+         <!--         Websites         -->
          <div id='wbsts' style='display:none;'>
             <p>List of all the interesting websites I refer to regularly.</p>
             <ul>

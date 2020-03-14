@@ -92,6 +92,12 @@ function inter_prep(){
 function websites(){
    document.getElementById("prsnl_space").style.display = "none";
    document.getElementById("wbsts").style.display = "block";
+   document.getElementById("books_all").style.display = "none";
+}
+function books(){
+   document.getElementById("prsnl_space").style.display = "none";
+   document.getElementById("wbsts").style.display = "none";
+   document.getElementById("books_all").style.display = "block";
 }
 
 function ss_dm(){
@@ -106,4 +112,40 @@ function ss_ml(){
 
 function goal_phd(){
    document.getElementById('goal_phd').style.display = "block"
+}
+
+function books_table(){
+   document.getElementById('books_table').style.display = "block"
+   document.getElementById('books_shelf').style.display = "none"
+   document.getElementById('books_store').style.display = "none"
+   document.getElementById('books_read').style.display = "none"
+   document.getElementById('authors').style.display = "none"
+}
+function books_shelf(){
+   document.getElementById('books_table').style.display = "none"
+   document.getElementById('books_shelf').style.display = "block"
+   document.getElementById('books_store').style.display = "none"
+   document.getElementById('books_read').style.display = "none"
+   document.getElementById('authors').style.display = "none"
+}
+function books_store(){
+   document.getElementById('books_table').style.display = "none"
+   document.getElementById('books_shelf').style.display = "none"
+   document.getElementById('books_store').style.display = "block"
+   document.getElementById('books_read').style.display = "none"
+   document.getElementById('authors').style.display = "none"
+}
+function books_read(){
+   document.getElementById('books_table').style.display = "none"
+   document.getElementById('books_shelf').style.display = "none"
+   document.getElementById('books_store').style.display = "none"
+   document.getElementById('books_read').style.display = "block"
+   document.getElementById('authors').style.display = "none"
+}
+function authors(){
+   document.getElementById('books_table').style.display = "none"
+   document.getElementById('books_shelf').style.display = "none"
+   document.getElementById('books_store').style.display = "none"
+   document.getElementById('books_read').style.display = "none"
+   document.getElementById('authors').style.display = "block"
 }
