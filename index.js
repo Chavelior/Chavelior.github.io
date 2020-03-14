@@ -119,33 +119,33 @@ function books_table(){
    document.getElementById('books_shelf').style.display = "none"
    document.getElementById('books_store').style.display = "none"
    document.getElementById('books_read').style.display = "none"
-   document.getElementById('authors').style.display = "none"
+   document.getElementById('books_authors').style.display = "none"
 }
 function books_shelf(){
    document.getElementById('books_table').style.display = "none"
    document.getElementById('books_shelf').style.display = "block"
    document.getElementById('books_store').style.display = "none"
    document.getElementById('books_read').style.display = "none"
-   document.getElementById('authors').style.display = "none"
+   document.getElementById('books_authors').style.display = "none"
 }
 function books_store(){
    document.getElementById('books_table').style.display = "none"
    document.getElementById('books_shelf').style.display = "none"
    document.getElementById('books_store').style.display = "block"
    document.getElementById('books_read').style.display = "none"
-   document.getElementById('authors').style.display = "none"
+   document.getElementById('books_authors').style.display = "none"
 }
 function books_read(){
    document.getElementById('books_table').style.display = "none"
    document.getElementById('books_shelf').style.display = "none"
    document.getElementById('books_store').style.display = "none"
    document.getElementById('books_read').style.display = "block"
-   document.getElementById('authors').style.display = "none"
+   document.getElementById('books_authors').style.display = "none"
 }
 function authors(){
    document.getElementById('books_table').style.display = "none"
    document.getElementById('books_shelf').style.display = "none"
    document.getElementById('books_store').style.display = "none"
    document.getElementById('books_read').style.display = "none"
-   document.getElementById('authors').style.display = "block"
+   document.getElementById('books_authors').style.display = "block"
 }
