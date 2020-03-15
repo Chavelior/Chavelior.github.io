@@ -93,11 +93,19 @@ function websites(){
    document.getElementById("prsnl_space").style.display = "none";
    document.getElementById("wbsts").style.display = "block";
    document.getElementById("books_all").style.display = "none";
+   document.getElementById("phd_rsrcs").style.display = "none";
 }
 function books(){
    document.getElementById("prsnl_space").style.display = "none";
    document.getElementById("wbsts").style.display = "none";
    document.getElementById("books_all").style.display = "block";
+   document.getElementById("phd_rsrcs").style.display = "none";
+}
+function phd_res(){
+   document.getElementById("prsnl_space").style.display = "none";
+   document.getElementById("wbsts").style.display = "none";
+   document.getElementById("books_all").style.display = "none";
+   document.getElementById("phd_rsrcs").style.display = "block";
 }
 
 function ss_dm(){
