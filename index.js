@@ -38,17 +38,12 @@ function personalInfo(){
 }
 
 function selfchal(){
-   document.getElementById('acad_deadlines').style.display = 'none';
+   document.getElementById('prjct_now').style.display = 'none';
    document.getElementById('selfchal').style.display = 'block';
 }
-
-function goal_phd(){
-   document.getElementById('goal_phd').style.display = 'block';
-}
-
-function selfchal(){
-   document.getElementById("acad_deadlines").style.display = "none";
-   document.getElementById("selfChal").style.display = "block";
+function projectsNow(){
+   document.getElementById("prjct_now").style.display = "block";
+   document.getElementById("selfChal").style.display = "none";
 }
 
 
@@ -94,18 +89,28 @@ function websites(){
    document.getElementById("wbsts").style.display = "block";
    document.getElementById("books_all").style.display = "none";
    document.getElementById("phd_rsrcs").style.display = "none";
+   document.getElementById("acad_projts").style.display = "none";
 }
 function books(){
    document.getElementById("prsnl_space").style.display = "none";
    document.getElementById("wbsts").style.display = "none";
    document.getElementById("books_all").style.display = "block";
    document.getElementById("phd_rsrcs").style.display = "none";
+   document.getElementById("acad_projts").style.display = "none";
 }
 function phd_res(){
    document.getElementById("prsnl_space").style.display = "none";
    document.getElementById("wbsts").style.display = "none";
    document.getElementById("books_all").style.display = "none";
    document.getElementById("phd_rsrcs").style.display = "block";
+   document.getElementById("acad_projts").style.display = "none";
+}
+function acad_proj(){
+   document.getElementById("prsnl_space").style.display = "none";
+   document.getElementById("wbsts").style.display = "none";
+   document.getElementById("books_all").style.display = "none";
+   document.getElementById("phd_rsrcs").style.display = "none";
+   document.getElementById("acad_projts").style.display = "block";
 }
 
 function ss_dm(){
