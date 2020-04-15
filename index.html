@@ -106,6 +106,13 @@
          .sidenav a:hover {
          color: #f1f1f1;
          }
+         .center {
+            display: block;
+            margin-left: -150px;
+            margin-right: auto;
+            margin-top: -10px;
+            width: 230%;
+         }
          /* Style page content */
          .main {
          margin-left: 160px; /* Same as the width of the sidebar */
@@ -450,21 +457,25 @@
             <a href="#" onclick="goal_phd()">PhD-University of Georgia</a>
             <a href="#" onclick="person_goal()">Personal</a>
          </div>
-         <div id="goal_phd" style="display:none;">
+         <div id="goal_phd" style="display:block;">
             <h6>University of Georgia</h6>
             <h6>To Do List:</h6>
+            <div id="bio_hack" style="display:block;">
+               <h6>Bio hacking</h6>
+               <a href="https://whatsgood.vitaminshoppe.com/biohacking/">Bio Hacking</a>
+               <a href="https://medium.com/biohackers-collective/brain-biohacking-notes-from-the-helsinki-biohackers-summit-4-of-8-c35e4260a699">Biohack summit</a>
+               <a href="https://www.theguardian.com/lifeandstyle/2017/sep/04/silicon-valley-ceo-fasting-trend-diet-is-it-safe">Brillian people reason for fasting</a>
+               <a href="https://getkion.com/articles/mind/biohacking/biohack-your-brain/">Games to power up the brain</a>
+               <a href="https://getkion.com/articles/mind/sleep/how-to-sleep-better/">How to sleep well</a>
+               <a href="http://brainscale.net/dual-n-back">Games for brain</a>
+            </div>
+         </div>
+         <div id="personal_goal" style="display:none;">
+            <img src="map_1.png" alt="My List" class="center">
          </div>
          <br/>
          <br/>
-         <div id="bio_hack" style="display:block;">
-            <h6>Bio hacking</h6>
-            <a href="https://whatsgood.vitaminshoppe.com/biohacking/">Bio Hacking</a>
-            <a href="https://medium.com/biohackers-collective/brain-biohacking-notes-from-the-helsinki-biohackers-summit-4-of-8-c35e4260a699">Biohack summit</a>
-            <a href="https://www.theguardian.com/lifeandstyle/2017/sep/04/silicon-valley-ceo-fasting-trend-diet-is-it-safe">Brillian people reason for fasting</a>
-            <a href="https://getkion.com/articles/mind/biohacking/biohack-your-brain/">Games to power up the brain</a>
-            <a href="https://getkion.com/articles/mind/sleep/how-to-sleep-better/">How to sleep well</a>
-            <a href="http://brainscale.net/dual-n-back">Games for brain</a>
-         </div>
+
       </div>
 
       <div id="contactInfo" class="tabcontent box">

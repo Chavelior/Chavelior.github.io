@@ -76,13 +76,13 @@ function art_pap(){
   document.getElementById("artpap").style.display = "block";
   document.getElementById("interprep").style.display = "none";
 }
-function inter_prep(){
+/*function inter_prep(){
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "none";
   document.getElementById("extr_srcs").style.display = "none";
   document.getElementById("artpap").style.display = "none";
   document.getElementById("interprep").style.display = "block";
-}
+}*/
 
 function websites(){
    document.getElementById("prsnl_space").style.display = "none";
@@ -125,6 +125,11 @@ function ss_ml(){
 
 function goal_phd(){
    document.getElementById('goal_phd').style.display = "block"
+   document.getElementById('personal_goal').style.display = "none"
+}
+function person_goal(){
+   document.getElementById('goal_phd').style.display = "none"
+   document.getElementById('personal_goal').style.display = "block"
 }
 
 function books_table(){
