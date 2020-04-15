@@ -90,6 +90,7 @@ function websites(){
    document.getElementById("books_all").style.display = "none";
    document.getElementById("phd_rsrcs").style.display = "none";
    document.getElementById("acad_projts").style.display = "none";
+   document.getElementById("math_pzls").style.display = "none";
 }
 function books(){
    document.getElementById("prsnl_space").style.display = "none";
@@ -97,6 +98,7 @@ function books(){
    document.getElementById("books_all").style.display = "block";
    document.getElementById("phd_rsrcs").style.display = "none";
    document.getElementById("acad_projts").style.display = "none";
+   document.getElementById("math_pzls").style.display = "none";
 }
 function phd_res(){
    document.getElementById("prsnl_space").style.display = "none";
@@ -104,6 +106,7 @@ function phd_res(){
    document.getElementById("books_all").style.display = "none";
    document.getElementById("phd_rsrcs").style.display = "block";
    document.getElementById("acad_projts").style.display = "none";
+   document.getElementById("math_pzls").style.display = "none";
 }
 function acad_proj(){
    document.getElementById("prsnl_space").style.display = "none";
@@ -111,6 +114,15 @@ function acad_proj(){
    document.getElementById("books_all").style.display = "none";
    document.getElementById("phd_rsrcs").style.display = "none";
    document.getElementById("acad_projts").style.display = "block";
+   document.getElementById("math_pzls").style.display = "none";
+}
+function math_puzz(){
+   document.getElementById("prsnl_space").style.display = "none";
+   document.getElementById("wbsts").style.display = "none";
+   document.getElementById("books_all").style.display = "none";
+   document.getElementById("phd_rsrcs").style.display = "none";
+   document.getElementById("acad_projts").style.display = "none";
+   document.getElementById("math_pzls").style.display = "block";
 }
 
 function ss_dm(){
