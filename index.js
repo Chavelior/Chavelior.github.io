@@ -38,8 +38,8 @@ function personalInfo(){
 }
 
 function selfchal(){
-   document.getElementById('prjct_now').style.display = 'none';
-   document.getElementById('selfchal').style.display = 'block';
+   document.getElementById("prjct_now").style.display = "none";
+   document.getElementById("selfChal").style.display = "block";
 }
 function projectsNow(){
    document.getElementById("prjct_now").style.display = "block";
