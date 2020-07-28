@@ -128,11 +128,19 @@ function math_puzz(){
 function ss_dm(){
    document.getElementById("ss_dm").style.display = "block";
    document.getElementById("ss_ml").style.display = "none";
+   document.getElementById("ss_dl").style.display = "none";
 }
 
 function ss_ml(){
    document.getElementById("ss_dm").style.display = "none";
    document.getElementById("ss_ml").style.display = "block";
+   document.getElementById("ss_dl").style.display = "none";
+}
+
+function ss_dl(){
+   document.getElementById("ss_dm").style.display = "none";
+   document.getElementById("ss_ml").style.display = "none";
+   document.getElementById("ss_dl").style.display = "block";
 }
 
 function goal_phd(){
