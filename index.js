@@ -40,9 +40,16 @@ function personalInfo(){
 function selfchal(){
    document.getElementById("prjct_now").style.display = "none";
    document.getElementById("selfChal").style.display = "block";
+   document.getElementById("todayChal").style.display = "none";
 }
 function projectsNow(){
    document.getElementById("prjct_now").style.display = "block";
+   document.getElementById("selfChal").style.display = "none";
+   document.getElementById("todayChal").style.display = "none";
+}
+function today(){
+   document.getElementById("prjct_now").style.display = "none";
+   document.getElementById("todayChal").style.display = "block";
    document.getElementById("selfChal").style.display = "none";
 }
 
