@@ -71,6 +71,7 @@ function uni_topic(){
   document.getElementById("artpap").style.display = "none";
   document.getElementById("interprep").style.display = "none";
   document.getElementById("mathcncpt").style.display = "none";
+  document.getElementById("rsrch_pprs").style.display = "none";
 }
 function corbooks(){
   document.getElementById("unitopic").style.display = "none";
@@ -79,6 +80,7 @@ function corbooks(){
   document.getElementById("artpap").style.display = "none";
   document.getElementById("interprep").style.display = "none";
   document.getElementById("mathcncpt").style.display = "none";
+  document.getElementById("rsrch_pprs").style.display = "none";
 }
 function exterSources(){
   document.getElementById("unitopic").style.display = "none";
@@ -87,6 +89,7 @@ function exterSources(){
   document.getElementById("artpap").style.display = "none";
   document.getElementById("interprep").style.display = "none";
   document.getElementById("mathcncpt").style.display = "none";
+  document.getElementById("rsrch_pprs").style.display = "none";
 }
 function art_pap(){
   document.getElementById("unitopic").style.display = "none";
@@ -95,6 +98,7 @@ function art_pap(){
   document.getElementById("artpap").style.display = "block";
   document.getElementById("interprep").style.display = "none";
   document.getElementById("mathcncpt").style.display = "none";
+  document.getElementById("rsrch_pprs").style.display = "none";
 }
 function math_concpt(){
   document.getElementById("unitopic").style.display = "none";
@@ -103,6 +107,16 @@ function math_concpt(){
   document.getElementById("artpap").style.display = "none";
   document.getElementById("interprep").style.display = "none";
   document.getElementById("mathcncpt").style.display = "block";
+  document.getElementById("rsrch_pprs").style.display = "none";
+}
+function rsrch_pap(){
+  document.getElementById("unitopic").style.display = "none";
+  document.getElementById("corbooksid").style.display = "none";
+  document.getElementById("extr_srcs").style.display = "none";
+  document.getElementById("artpap").style.display = "none";
+  document.getElementById("interprep").style.display = "none";
+  document.getElementById("mathcncpt").style.display = "none";
+  document.getElementById("rsrch_pprs").style.display = "block";
 }
 /*function inter_prep(){
   document.getElementById("unitopic").style.display = "none";
