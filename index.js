@@ -63,8 +63,18 @@ function today(){
 }
 
 
-
+function chalConcepts(){
+  document.getElementById("chalcon").style.display = "block";
+  document.getElementById("unitopic").style.display = "none";
+  document.getElementById("corbooksid").style.display = "none";
+  document.getElementById("extr_srcs").style.display = "none";
+  document.getElementById("artpap").style.display = "none";
+  document.getElementById("interprep").style.display = "none";
+  document.getElementById("mathcncpt").style.display = "none";
+  document.getElementById("rsrch_pprs").style.display = "none";
+}
 function uni_topic(){
+  document.getElementById("chalcon").style.display = "none";
   document.getElementById("unitopic").style.display = "block";
   document.getElementById("corbooksid").style.display = "none";
   document.getElementById("extr_srcs").style.display = "none";
@@ -74,6 +84,7 @@ function uni_topic(){
   document.getElementById("rsrch_pprs").style.display = "none";
 }
 function corbooks(){
+  document.getElementById("chalcon").style.display = "none";
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "block";
   document.getElementById("extr_srcs").style.display = "none";
@@ -83,6 +94,7 @@ function corbooks(){
   document.getElementById("rsrch_pprs").style.display = "none";
 }
 function exterSources(){
+  document.getElementById("chalcon").style.display = "none";
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "none";
   document.getElementById("extr_srcs").style.display = "block";
@@ -92,6 +104,7 @@ function exterSources(){
   document.getElementById("rsrch_pprs").style.display = "none";
 }
 function art_pap(){
+  document.getElementById("chalcon").style.display = "none";
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "none";
   document.getElementById("extr_srcs").style.display = "none";
@@ -101,6 +114,7 @@ function art_pap(){
   document.getElementById("rsrch_pprs").style.display = "none";
 }
 function math_concpt(){
+  document.getElementById("chalcon").style.display = "none";
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "none";
   document.getElementById("extr_srcs").style.display = "none";
@@ -110,6 +124,7 @@ function math_concpt(){
   document.getElementById("rsrch_pprs").style.display = "none";
 }
 function rsrch_pap(){
+  document.getElementById("chalcon").style.display = "none";
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "none";
   document.getElementById("extr_srcs").style.display = "none";
@@ -119,10 +134,13 @@ function rsrch_pap(){
   document.getElementById("rsrch_pprs").style.display = "block";
 }
 function fellow_prep(){
+  document.getElementById("chalcon").style.display = "none";
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "none";
   document.getElementById("extr_srcs").style.display = "none";
   document.getElementById("artpap").style.display = "none";
+  document.getElementById("interprep").style.display = "none";
+  document.getElementById("mathcncpt").style.display = "none";
   document.getElementById("interprep").style.display = "block";
 }
 
