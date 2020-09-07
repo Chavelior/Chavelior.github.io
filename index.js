@@ -118,13 +118,13 @@ function rsrch_pap(){
   document.getElementById("mathcncpt").style.display = "none";
   document.getElementById("rsrch_pprs").style.display = "block";
 }
-/*function inter_prep(){
+function fellow_prep(){
   document.getElementById("unitopic").style.display = "none";
   document.getElementById("corbooksid").style.display = "none";
   document.getElementById("extr_srcs").style.display = "none";
   document.getElementById("artpap").style.display = "none";
   document.getElementById("interprep").style.display = "block";
-}*/
+}
 
 function websites(){
    document.getElementById("prsnl_space").style.display = "none";
