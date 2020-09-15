@@ -392,9 +392,10 @@
          <div class="sidenav">
             <a href="#" onclick="books()">Books</a>
             <a href="#" onclick="websites()">Websites</a>
-            <a href="#" onclick="math_puzz()">Math puzzles</a>
-            <a href="#" onclick="acad_proj()">Academic mini Projects</a>
+            <a href="#" onclick="math_puzz()">Courses</a>
+            <a href="#" onclick="acad_proj()">Github mini Projects</a>
             <a href="#" onclick="people()">People</a>
+            <a href="#" onclick="con_res()">Conferences</a>
             <a href="#" onclick="phd_res()">PhD Resources</a>
          </div>
          <!--         Initial display         -->
@@ -681,12 +682,17 @@
                <li><a href='https://www.coursera.org/in-progress'>Coursera</a></li>
                <li><a href="https://zenhabits.net/">Zen Habits</a></li>
             </ul>
-            <p>Courses</p>
-            <ul>
-               <li>Satinder singh - A short course on Reinforcement Learning <a href='https://www.youtube.com/watch?v=hx9o49Zt-us&list=PLcChZv9P6SoJELH9VoRrvEvF4buqHXudI'>UMich</a></li>
-            </ul>
-
          </div>
+         <!--         Conferences              -->
+         <div id='conf_res' style='display:none;'>
+            <p>List of all the interesting websites I refer to regularly.</p>
+            <ul>
+               <li><a href='http://cvpr2020.thecvf.com/'>CVPR</a></li>
+               <li><a href='https://nips.cc/'>NIPS</a></li>
+               <li><a href='https://www.siggraph.org/'>SIggraph</a></li>
+            </ul>
+         </div>
+         <!--         Pioneer People              -->
          <div id="go_people" style="display:none;">
             <ul>
                <li>Andrej Karpathy <a href='https://karpathy.ai/'>Tesla</a> Computer vision in Autonomous vehicles</li>
@@ -711,12 +717,18 @@
          </div>
          <div id='acad_projts' style='display:none;'>
             <ol>
+               <li>Different Autoencoder models in Pytorch [Github implementation] <a herf='https://github.com/Chavelior/PyTorch-VAE?organization=Chavelior&organization=Chavelior'>here</a></li>
+               <li>Computer vision tasks [Github forked repo] <a href='https://github.com/Chavelior/PyTorch-VAE?organization=Chavelior&organization=Chavelior'>here</a></li>
+               <li>Stanford Tensorflow tutorials [Github forked Repo] <a href='https://github.com/Chavelior/stanford-tensorflow-tutorials'>here</a></li>
+               <li>CNN for sentence classification [Github forked Repo] <a href='https://github.com/Chavelior/CNN_sentence'>here</a></li>
                <li>Implement SOM on Iris dataset and handwritten digits detection</li>
             </ol>
          </div>
          <div id='math_pzls' style='display:none;'>
             <ol>
-               <li>Tower of Hanoi.[Code in Github]</li>
+               <li>Reinforcement Learning Short course[6 videos : 5.7hours] <a href='https://www.youtube.com/playlist?list=PLcChZv9P6SoJELH9VoRrvEvF4buqHXudI'>here</a></li>
+               <li>Yann LeCun Deep learning course[12 videos]<a href='https://www.youtube.com/playlist?list=PL80I41oVxglJ0kTDV7i3aHBIXe65nTxE7'>here</a></li>
+               <li>Feedforward Neural Networks [92 short videos]<a href='https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH'>here</a></li>
             </ol>
          </div>
       </div>
@@ -727,17 +739,6 @@
             <a href="#" onclick="person_goal()">Personal</a>
          </div>
          <div id="goal_phd" style="display:block;">
-            <h6>University of Georgia</h6>
-            <h6>To Do List:</h6>
-            <div id="bio_hack" style="display:block;">
-               <h6>Bio hacking</h6>
-               <a href="https://whatsgood.vitaminshoppe.com/biohacking/">Bio Hacking</a>
-               <a href="https://medium.com/biohackers-collective/brain-biohacking-notes-from-the-helsinki-biohackers-summit-4-of-8-c35e4260a699">Biohack summit</a>
-               <a href="https://www.theguardian.com/lifeandstyle/2017/sep/04/silicon-valley-ceo-fasting-trend-diet-is-it-safe">Brillian people reason for fasting</a>
-               <a href="https://getkion.com/articles/mind/biohacking/biohack-your-brain/">Games to power up the brain</a>
-               <a href="https://getkion.com/articles/mind/sleep/how-to-sleep-better/">How to sleep well</a>
-               <a href="http://brainscale.net/dual-n-back">Games for brain</a>
-            </div>
          </div>
          <div id="personal_goal" style="display:none;">
             <img src="map_1.png" alt="My List" class="center">
